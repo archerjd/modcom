@@ -1,0 +1,5 @@
+C:\DevDocs\modularcombat_source\src\utils\ConvarUpdater\bin\Debug\ConvarUpdater.exe
+C:\DevDocs\modularcombat_source\src\utils\ConvarUpdater\bin\Debug\ConvarUpdater.pdb
+C:\DevDocs\modularcombat_source\src\utils\ConvarUpdater\obj\Debug\ResolveAssemblyReference.cache
+C:\DevDocs\modularcombat_source\src\utils\ConvarUpdater\obj\Debug\ConvarUpdater.exe
+C:\DevDocs\modularcombat_source\src\utils\ConvarUpdater\obj\Debug\ConvarUpdater.pdb

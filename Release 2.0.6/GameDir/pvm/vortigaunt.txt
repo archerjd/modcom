@@ -1,0 +1,19 @@
+"stats"
+{
+	"class"	"npc_vortigaunt"
+	"name"	"Vortigaunt"
+	"model"	"models/vortigaunt_slave.mdl"
+	"random_spawn_frequency"	"0.9"
+	"experience_scale"	"1.25"
+
+	"disable_melee_attack1" "1"
+
+	"vars"
+	{
+		"health"	"60 2 1"
+		"dmg_claw"	"5 0.5 1"
+		"dmg_rake"	"10 0.9 1"
+		"dmg_zap"	"15 1 1"
+		"zap_spread"	"3.75 0 1"
+	}
+}

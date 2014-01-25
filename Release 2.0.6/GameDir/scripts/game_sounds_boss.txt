@@ -1,0 +1,231 @@
+// BoSS quotes
+"BoSS.Congratulations"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/congratulations.wav"
+	
+}
+
+"BoSS.Endgame1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame1.wav"
+}
+
+"BoSS.Endgame2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame2.wav"
+}
+
+"BoSS.Endgame3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame3.wav"
+}
+
+"BoSS.Endgame4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame4.wav"
+}
+
+"BoSS.Endgame5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame5.wav"
+}
+
+"BoSS.Endgame6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame6.wav"
+}
+
+"BoSS.Endgame7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame7.wav"
+}
+
+"BoSS.Endgame8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/endgame/endgame8.wav"
+}
+
+"BoSS.Execution"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/pvm.wav"
+	
+}
+"BoSS.Deaths"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"rndwave"
+	{
+		"wave"	"boss/death/death1.wav"
+		"wave"	"boss/death/death2.wav"
+		"wave"	"boss/death/death3.wav"
+		"wave"	"boss/death/death4.wav"
+		"wave"	"boss/death/death5.wav"
+		"wave"	"boss/death/death6.wav"
+		"wave"	"boss/death/death7.wav"
+		"wave"	"boss/death/death8.wav"
+		"wave"	"boss/death/death9.wav"
+		"wave"	"boss/death/death10.wav"
+		"wave"	"boss/death/death11.wav"
+		"wave"	"boss/death/death12.wav"
+		"wave"	"boss/death/death13.wav"
+		"wave"	"boss/death/death14.wav"
+		"wave"	"boss/death/death15.wav"
+		"wave"	"boss/death/death16.wav"
+
+	}
+}
+"BoSS.Hello"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/hello.wav"
+}
+"BoSS.Spree1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree1.wav"
+}
+"BoSS.Spree2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree2.wav"
+}
+"BoSS.Spree3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree3.wav"
+}
+"BoSS.Spree4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree4.wav"
+}
+"BoSS.Spree5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree5.wav"
+}
+"BoSS.Spree6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree6.wav"
+}
+"BoSS.Spree7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_TALKING"
+
+	"wave"	"boss/spree/spree7.wav"
+}
+"BoSS.CharacterSelect"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_TALKING"
+
+	"wave"	"boss/suitselect.wav"
+}

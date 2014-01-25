@@ -1,0 +1,12 @@
+"stats"
+{
+	"class"	"npc_poisonzombie"
+	"name"	"Poison Zombie"
+	"random_spawn_frequency"	"0.8"
+
+	"vars"
+	{
+		"health"	"100 5 1"
+		"dmg_one"	"10 1 1"
+	}
+}

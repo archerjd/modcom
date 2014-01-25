@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models\HEVSuit\hevsuit_sheet"
+	"$bumpmap" "Models\HEVSuit\hevsuit_sheet_normal"
+	"$selfillum" "1"
+}

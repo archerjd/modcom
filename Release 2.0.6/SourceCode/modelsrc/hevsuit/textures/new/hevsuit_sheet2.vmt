@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models\HEVSuit\hevsuit_sheet2"
+	"$selfillum" "1"
+}

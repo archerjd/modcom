@@ -1,0 +1,25 @@
+"Affliction.Jetpack"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ambient/fire/fire_small_loop1.wav"
+		"wave"	"ambient/fire/fire_small_loop2.wav"
+	}
+}
+
+"Affliction.Freeze"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"0.75, 1.25"
+
+	"rndwave"
+	{
+		"wave"	"ambient/wind/wind_hit1.wav"
+		"wave"	"ambient/wind/wind_hit2.wav"
+	}
+}

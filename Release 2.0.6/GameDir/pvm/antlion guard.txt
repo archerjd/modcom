@@ -1,0 +1,15 @@
+"stats"
+{
+	"class"	"npc_antlionguard"
+	"name"	"Antlion Guard"
+	"boss"	"1"
+	"random_spawn_frequency"	"0.275"
+	"experience_scale"	"10.0"
+
+	"vars"
+	{
+		"health"	"1000 50 1"
+		"dmg_shove"	"30 2 1"
+		"dmg_charge"	"60 2 1"
+	}
+}

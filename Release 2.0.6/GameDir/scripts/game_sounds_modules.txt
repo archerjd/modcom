@@ -1,0 +1,68 @@
+"Module.ToggleFail"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"weapons/physcannon/physcannon_tooheavy.wav"
+}
+
+"Module.EnergyBall"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_50dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"weapons/ar2/ar2_altfire.wav"
+}
+
+"Module.Teleport"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_60dB"
+	"pitch"		"150"
+
+	"wave"		"weapons/ar2/ar2_altfire.wav"
+}
+
+"Crit.Shoot"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fx/crit_shoot1.wav"
+		"wave"	"fx/crit_shoot2.wav"
+		"wave"	"fx/crit_shoot3.wav"
+		"wave"	"fx/crit_shoot4.wav"
+	}
+}
+
+"Crit.Hit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fx/crit_hit1.wav"
+		"wave"	"fx/crit_hit2.wav"
+		"wave"	"fx/crit_hit3.wav"
+	}
+}
+
+"Module.MagdLoop"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.2"
+	"soundlevel"	"SNDLVL_70dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ambient/machines/laundry_machine1_amb.wav"
+}

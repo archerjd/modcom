@@ -1,0 +1,13 @@
+"stats"
+{
+	"class"	"npc_barnacle"
+	"name"	"Barnacle"
+	"random_spawn_frequency"	"0"
+
+	"vars"
+	{
+		"health"	"50 5 1"
+		"dmg_bite"	"15 5 1"
+		"dmg_bite_self"	"10 -0.5 1 min 0"
+	}
+}

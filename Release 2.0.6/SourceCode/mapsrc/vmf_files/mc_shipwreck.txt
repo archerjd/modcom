@@ -1,0 +1,9 @@
+so, the map isn't compiled - hammer issues, but one thing at a time.
+
+take a look at it, lemme know if you think the idea seems alright, any any suggested changes, i suppose can go here.
+
+as for the map itself, you'll see the basic ground layout of the riverbed, with some gouges in it, where water will be.
+    as well as the overturned ship, it's cabin, storage area, and more detail later on.
+    there are shipping containers strewn insie the ship, and later on there will be many all over the battlefield and such, but for now keeping it clean to see.
+    lastly, there is an example of containers which will be speared into the ground, a small block of land raised up and a mock crater there with the crate inside.
+obviously all the detail is far from a finished product, so that's not really the point, mostly the point is seeing if the idea is, a good idea.

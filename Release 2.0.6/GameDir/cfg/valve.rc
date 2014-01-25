@@ -1,0 +1,20 @@
+// load the base configuration
+//exec default.cfg
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+hostname "Modular Combat"
+
+mp_allowspectators		"1"
+mp_footsteps			"1"
+mp_flashlight			"1"
+
+sv_unlockedchapters 99

@@ -1,0 +1,16 @@
+"stats"
+{
+	"class"	"npc_poisonzombie"
+	"name"	"Medium Crabless Zombie"
+	"random_spawn_frequency"	"0.4"
+
+	"disable_ranged_attack1"	"1"
+	"disable_ranged_attack2"	"1"
+
+	"vars"
+	{
+		"health"	"75 4 1"
+		"dmg_one"	"15 2.5 1"
+		"crabless"	"1"
+	}
+}

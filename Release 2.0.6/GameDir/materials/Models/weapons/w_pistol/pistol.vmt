@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Weapons/w_pistol/pistol"
+
+
+	"DefaultTexture"	"x"
+	"ResistanceTexture"	"models/Weapons/w_pistol/pistol_resistance"
+	//"CombineTexture"	"models/Weapons/w_pistol/pistol_combine"
+	//"ApertureTexture"	"models/Weapons/w_pistol/pistol_aperture"
+
+	"Proxies"
+	{
+		"WeaponSkin"
+		{
+
+		}
+	}
+}

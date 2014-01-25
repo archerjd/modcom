@@ -1,0 +1,243 @@
+====================================================================================
+just someplace to store my notes publically until i find a better place.
+====================================================================================
+Modular Combat v2.0.6_Dev revision 71
+notes for 8/20/2011
+====================================================================================
+HEVsuit Zombines appear to be well, very difficult to kill and not worth it seeing as they give only ~10-15xp more than most other creatures.
+HEVsuit Zombines also do not have a ragdoll so when they die, they go into the default pose till they fade. looks silly.
+Antlion Workers' spit range needs a nerf. fuckers are shooting me from across maps.
+
+===================Mc_Outdoors===================
+Car in garage on map Mc_outdoors results in no xp if a player launches it at a monster.
+concrete barriers on map Mc_outdoors are very light, and can be thrown around easily yet deal very low damage despite the fact they are a concrete barrier. make them heavier and increase mass.
+other bugs with Mc_outdoors can be let slide for now, map is obviously not finished.
+armor charger on the side of a generator? wtf.
+=================================================
+monsters can be killed and gain xp with holding a manhack again. intentional?
+
+module list does not update module point count if you level up while in the list. minor.
+
+this looks wrong - http://i.imgur.com/oewj6.png
+one, it has attritions' icon. and if you misunderstand the description you might think your target takes 50% less damage and goes 100% slower.
+
+the last rocket from an RPG cannot be guided, and dumbfires till it hits, then the character puts it away and/or you can switch weapons.
+particles from poison spit after the impact are too exxaggerated (too many). looks ridiculous. i mean seriously. shoot lvl10 poison spit at a wall. wtf.
+bullet impacts on hunters don't draw hit impacts. makes it seem like you aren't hitting. Assault Rifle rounds draw impacts though. buckshot makes enough particles to be good enough. crossbow looks like it doesn't hit.
+seems odd it takes two revolver shots to kill a poison blaargh. it was lvl 16. since it deals 75 dmg, for starters that's ridiculously high and it kind've makes sense to kill it. small creature, relatively large bullet, etc.
+
+====================================================================================
+Modular Combat v2.0.6_Dev revision 71
+notes for 8/22/2011
+====================================================================================
+seems to take about 5 or 6 lvl 10 crows to kill a lvl 21 hunter. maybe too many?
+
+holy shit crits make killing things faster.
+i like the calculation for energy comsumption, though maybe the chance is a bit too high. the downside of completely random is indeed that sometimes you'll get a bunch of crits and your enemy will die unrealsitically quicker.
+the shotgun is quite prone to these random pileups, with some testing i had a shot that was almost entirely or maybe was entirely crits. shots like that can be annoying to other players. 
+
+speaking of the shotgun, it is often said to be the most powerful weapon in the game. and it is indeed powerful, it fights ping and lag well, does considerable damage but still shoots pretty quick, and in modular combat it's range is extended from other source applications because of modules and such.
+possible fix, remove the secondary firing mode from it (a SPAS-12 can't fire two shells simultaneously anyways.) and reduce the pellet count in the primary from it's 9 to 4 or maybe 6, while increasing the damage of each pellet. this would increase it's overall accuracy, but decrease it's damage output and make it less able to be superior in a world scoured by ping and lag.
+
+hmm. maybe turrets should shoot a bit slower, but be a bit more accurate. or maybe turrets should have a choice for the owner of what kind of turret to be, low accuracy |high RPM, high accuracy | low RPM - and possibly different types of bullets, for different elemental damages or whether to use more powerful bullets at the cost of ammo storage, or visa-versa.
+and maybe the owner of the turrets should be able to lock them so they won't fire, and then will fire at targets again when unlocked, if you want them to save ammo against that lone pesky manhack or something.
+
+i still think MIRV does shit for damage considering how much it costs to use it.
+
+against monsters, i have an odd feeling about damage amp. for most monsters it basically makes it a free kill.
+
+i just had a stupid idea. howabout an active module that uses like 20 energy and then generates ~50 over the course of 3-5 seconds, with a cooldown of somewhere around 5 seconds. i like the name 'Ion Reactor'.
+idea being that it uses some energy to start going, then generates for a while and then sputters out. also a great way to keep people from abusing energy too much, if you've run out, you need to wait to regen some before you can quickly get some more.
+
+fast zombies are still so effective, and normal zombies are still not.
+i'm not sure but it seems like antlion worker minions won't attack non-organic monsters.
+vortigaunt minions may need to deal more damage. they have a hard time killing anything even in a large group.
+i like their accuracy now however. they have enough margin of error where they hit most of the time but you can dodge or get lucky.
+A.I. responsiveness needs some work. owner commands should override anything the minion is doing.
+manhacks don't count as minions do they? otherwise if they do they aren't reporting in the buff area showing active minions. and if they aren't, maybe it should still be shown how many active manhacks you have, so you don't need to run around counting.
+
+players that have uncloaked may be recieving a free reprive from monsters, they don't seem to attack until you attack a monster again.
+
+Oxygen and overall AUX power, should they be based on the same energy? Oxygen isn't energy, so.
+
+the max range of teleport seems rather short, if you're in areas with any decent size. in cramped hallways it's fine but in the open...
+
+flechette ability seems to be pretty well balanced.
+
+energy orb is decently effective against things like zombies, but antlions and other 'armored' targets, it takes ages to kill anything. i suggest a slight energy cost reduction along with the slight damage buff.
+
+along with the poison spit being too excessive on the splash particles and too many, they also fly way too far. they can go the length of medium corridors, etc yet don't do anything. if they did damage (oh dear god.) that would be different.
+
+explosive projectiles like grenades should state the initial explosion damage as well as the effect damage. incindiary grenade just killed something without lighting it on fire.
+
+a difficult problem. Vortigaunts are a little too accurate at close range, (inside ~20m) but longer distances their accuracy is nicely balanced. since the accuracy is a spread cone, this causes a slight problem.
+
+weaken should probably have more of an effect on monsters - you don't notice it that much on them as you do players.
+
+====================================================================================
+Modular Combat v2.0.6_Dev revision 101
+notes for 8/20/2011
+====================================================================================
+        notes for the module icons when standing at a brighter area - darker areas are fine yes, but - 
+manhacks are hard if at all to see the blade of the manhack.
+the invisible player in cloak is hard to see the left edge.
+the particles in teleport are a bit dim.
+the particles in energy ball are dim.
+nice shield, but they're a bit pixelated.
+we might want to take a look at the shockwave modules' icon.
+the plague icon has always been hard to see.
+same with lasers.
+turrets could probably have an improved left edge.
+vortigaunts could probably do with an easier to see beam.
+
+====================================================================================
+Modular Combat v2.0.6_Dev revision 124
+notes for 10/16/2011
+====================================================================================
+random idea - what if cloak used all your energy, lasted forever, but you couldn't use any active modules or attack with a weapon until you de-cloak? this might just work. or maybe a choice of how it is now, or this one, for people that like being really sneaky.
+
+HEV Zombines seem to be highly susceptible to physics attacks. (tested with a Cinder Block on Dm_Hydro)
+
+i think i noticed this before, but the RPG seems to shoot dumb-fire if the mag ends up empty, in attempting to put it away. we could fix it but before we do that, for when we (as i plan for this to be done in the not too far future, we've put it off for enough years)
+expand the weapons and such, have a guided launcher, and dumb-fire, ending in smaller, weaker, faster, guided rockets or big powerful ones that are slow and dumb-fire.
+
+rollermines don't seem to build on brute-force. at the time i was unable to find a manhack, but i have a feeling both being mechanical, have the same effect, or lack of. 
+
+the module list still has problems with large values of module points, where if you say, have things for testing have points per level set to 30 or 50, after a hundred or two, things seem to go screwy. i imagine it's not the memory limitations of the variable, so it must be something else.
+and it's not that you don't have the module points, it's just you can't spend them. the player data will report each player having a large sum of module points, but only a fraction can be utilized. this should be mended so testing things can be simpler.
+also, we might as well reimplement the ability to spawn monsters with a specific level, so that specifics can be easily tested. i can't see why we'd remove it anyways, because of how much we've used it in the past :p
+
+possible module idea - a module that increases durations of any module that has an effect over time - either a single level module costing 5 points, and increasing all durations by ~30%, or a 10 level module (i'd prefer a 5 though) costing one point each level increasing durations 2.5% each level.
+
+possible game mechanics change - have 4 types of players, normal humans, HEV suits, and 'aliquid' suits (aliquid being lating for 'something more'). all players would start as normal humans, without the ability to use modules or anything, and just standard weapons. once they've gotten to level... 3 maybe?
+they would be allowed to purchase a HEV suit (costing 5 module points probably) and they would deploy with that. then at level... 20 perhaps? they would be allowed to purchase a 'aliquid' suit, costing 10 module points. the 'aliquid' suit would have improvements so various parts of the HEV suit, and add more.
+such as, faster sprinting, a larger energy capacity, more damagine melee, more module slots (only if my possible idea of having limited slots and an inventory of modules where players would juggle the many modules if they wished to before each spawn time.), more effective use of armor energy, better protection of vitals, such as head and chest (meaning slight reductions in damage on those hitbox areas), and maybe some more stuff.
+this suit could look like - http://i54.tinypic.com/17bw9d.jpg - that old suit we all remember ;) we'll need to touch it up but it has a more... armor suit look rather than semi-protection.
+and yes, i think that we'll end up with most of our current player models being set as normal humans. as for the 4th type of suit, this bridges from the combine models and such, which are normal humans, but wearing what is best thought and assumed to be Kevlar. this being the case, they would have slight resistances to blunt damage, some resistance to projectiles, and slight resistances to effects such as fire and poison. 
+
+hmm. i think players which use acid spit should deal some poison or burning damage. after the initial hit, then over a few moments, a little bit more damage to show that it's a dangerous liquid and keeps burning. 
+
+====================================================================================
+Modular Combat v2.0.5
+notes for 11/6/2011
+====================================================================================
+just some things i thought of while playing the current version.
+
+the console should print chat lines as a different color than the rest so that you can find them if you missed part of a conversation.
+
+i'm wondering if the grenade launcher is somewhat overpowered and should work differently. 
+
+lots of people complain about any gamemode that includes NPC's, complaining that it lags. i do not see any such problem, but is there a way we could possibly optimize the lower end better, so players on the lower end of the performance spectrum can play all the gamemodes nicely?
+possibly limiting the draw distance, more intuitive visual software such as OpenGL's advanced rendering (which only draws what you can see, the rest is not.) ----i'm not suggesting we use OpenGL though, just an example.----
+players should be able to play PvP gamemodes as well as PvM and PvE. 
+
+====================================================================================
+Modular Combat v2.0.6 - EP
+notes for 11/6/2011
+====================================================================================
+
+For the lag thing, not really. Assuming the player's computer itself isn't at fault, monsters take up a lot of bandwith. It is possible to do something similar to how L4D handles it's large amount of zombies. How it works is the NPC's position is only updated to the server when it's Z position changes.
+
+PS - Taiiat, please take a look at the Zombine code and try to figure out what's wrong with the rand() function.
+
+====================================================================================
+Modular Combat in general
+notes for 11/16/2011
+====================================================================================
+just got to thinking, why are the lasers so underpowered? they were overpowered a long while ago indeed, but now they're almost useless. if you use a mag of bullets to kill a monster, that was free. 
+if you spend your entire capacity of energy to place a set of lasers, and have them desotroy themselves after killing one monster, you paid for that. why is something that you paid module points for subservant to something you got for free?
+lasers really should have a considerably higher life damage level. 
+
+hmm, as much as i hate to use CODfish for anything, AlterIWnet AIzombies doesn't seem to have a lag problem on most servers despite most waves having dozens, even hundreds of zombies around. 
+part of this is probably because they look mostly the same and they all do basically the same things and such, but it is still a lot of updated locations.
+maybe there's something tricky being done with that gamemode to reduce the lag, or maybe the engine is good at handling things such as that already. at any rate it might be worth looking into - i might, though i'm expecting most of the game files to be baked -_-
+
+obviously this is the problem with the Zombine.
+http://i52.tinypic.com/xaqao6.png
+-i think the problem - might? - be the location of these things, possibly because they're in the declarations section that it's throwing things off. i'll keep looking around though.
+-hm, looks like Cpp may be complaining that srand is designed to be used as a function, and you're using it diffently, therefore redefining the keyword.
+-one problem down, you didn't give srand a type of variable :p
+-by the way, in that image, note that Cpp suggests you go to the specified line on that file to see how srand is declared. i found it useful. 
+-everything but srand being a function has been mended (both other problems were a lack of variable definition :p) i'm sure you don't like how those lines look just as i don't. but programming is so finicky :/
+-i also set the random value from 0 to 100, for a greater randomness. the larger the batch, the more random it will be. 
+
+erm, did we manage to break the main client end file? (client.dll) as i got the latest devbuild to test, and launched it, to have it complain about the file in debug mode or something.
+
+====================================================================================
+Modular Combat in general
+notes for 3/6/2012
+====================================================================================
+after we add the scripted weapons system, i'll spend some time mocking up different styles of weapons, to fit different roles.
+so far i've come up with weapons that work well based off of real weapons, including -
+-G18
+-Heavy pistol (be it a fiveseven, 1911, or another sort of heavier round pistol than a 9mm)
+-M240 / M60 (a light machine gun, firing a heavier round, with a medium rate of fire, and medium damage, and heavier recoil due to the extra power)
+-'Flak' grenades (a less damaging grenade, which has a larger explosion radius. handy so you don't miss, at the cost of much less damage)
+-M14 esque (heavier round, semi-auto, relatively small magsize, good accuracy, etc.)
+
+more will to come, as well as constant tweaks to existing ones. they would be implemented slowly and then sessions of testing them to make sure they're balanced.
+
+you can ignore these weapon spec notes. specs are not necessarily accurate to true weapons, but are relatively close.
+Accuracy == .01-1.0 (based off of spread at 100m - 1.0 is 1m between impacts)
+all specs are subject to change for balancing.
+-USP Match	7dmg	normal 		normal	(.32)			- modifying the existing pistol to rebalance and balance against the G18.
+-G18		6		refire .045	20rd	(.48)			
+-MP7		7		refire .07	30rd	(.39)			- modifying the existing SMG to rebalance and give a better role.
+-SPAS12		8		refire .08	8rd		(.41) pump .4	- modifying the existing shotgun to rebalnce it. lowering damage slightly and increasing spread, but increasing firing speed.
+-Shotgun	9.5		refire .425	6rd		(.36) pump .5	- a different pump action shotgun, slower, more accurate, and more damage. 
+-Semi-auto	20		refire .35	10rd	(.30)			- a semi-auto matic rifle of sorts, accurate, good damage, however shoots relatively slow, small magsize, longer reload.
+
+
+nothing appears to be wrong with how Bioarmor functions, it doesn't give crazy amounts of energy, as far as i can tell.
+
+proposed motion blur changes so it basically is actually on and to improve visual appeal.
+since as motion blur is now, turning it on is a useless load, as the game looks almost identical, you almost can't tell a difference.
+falling intensity	.25
+falling max			17.5
+forward enabled		1.0
+rotation intensity	2.0
+blur strength		5.0
+screen max			30.0
+i feel these numbers make motion blur add appeal to the visuals while not going overboard.
+unmentioned motion blur variables are unchanged.
+
+====================================================================================
+Modular Combat in general
+notes for 3/8/2012
+====================================================================================
+i want BioArmor to allow you to 'overcharge' your armor level persay, so you can obtain a higher level than you normally can with batteries and such.
+however, this also seems to turn people into damn tanks with 100hp + a max armor of 150, plus my first idea of another charge-to level of +100. this makes for a total of 225hp with the armor.
+this may be too much, so any ideas?
+
+====================================================================================
+Modular Combat in general
+notes for 3/8/2012
+====================================================================================
+http://i.imgur.com/3fCd0.jpg
+wtf? the first slot on recharge's table looks pretty wonky. '-1.$' is pretty lol.
+
+====================================================================================
+Modular Combat general testing for 2.0.6_Dev revision 247 release
+note for 7/16/2012
+====================================================================================
+
+should be some sort of counter so players know how long it is before they can spawn again, rather than franticly clicking.
+adrenaline(damn that's spelled wrong ingame), armor regen - have no description, and therefore adopt the description of the past looked at module.
+the list of modules just shifted down, unsure how to reproduce. opening and closing a module tier fixed.
+
+unless sprinting speed was heavily nerfed, sprinting isn't working.
+was attacked by a hunter through a wall, or it looked like it to me.
+
+sprinting has now randomly started working.
+
+sprinting is not working again, haven't deduced and cause yet.
+saw 'respawn allowed in X' while i wasn't dead.
+saw 'respawn allowed in X' while i wasn't dead - again.
+
+sprinting is working again.
+saw a player with a talk icon on him, when someone else was talking. that player wasn't talking.
+
+alright, sometimes when other people die, i see 'respawn allowed in X'.
+
+sprinting is now working again, after not working for a while.
+freeze grenade effect stuck, client side only. effect continues even after respawn. - frozen buff still active now, with a duration of 0 secs.

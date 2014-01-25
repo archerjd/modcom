@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+//	"$spriteorientation" "vp_parallel"
+//	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$basetexture" "effects/fluttercore"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$additive" "1"
+//	"$ignorez" "1"
+}

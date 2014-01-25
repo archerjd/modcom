@@ -1,0 +1,9 @@
+Overview:
+
+ - Install MS VC++ 2008 Express - http://www.microsoft.com/visualstudio/en-us/products/2008-editions/express
+ - Install TortoiseSVN - http://tortoisesvn.net/downloads.html
+ - Checkout the SVN for modcom
+ - Export modularcombat_source_release\GameDir to steam\steamapps\sourcemods
+ - Rename GameDir to modularcombat_beta under steam\steamapps\sourcemods
+ - Add a system variable called modularcombat & point it to your steam\steamapps\sourcemods\modularcombat_beta dir
+    (can be created in Win7 by going to the control panel->system->advanced system settings->enviornment variables on the advanced tab)

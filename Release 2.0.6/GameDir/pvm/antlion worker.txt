@@ -1,0 +1,16 @@
+"stats"
+{
+	"class"	"npc_antlion_worker"
+	"name"	"Antlion Worker"
+	"random_spawn_frequency"	"1"
+
+	"vars"
+	{
+		"health"	"25 5 1"
+		"dmg_burst"	"15 1.3 1"
+		"dmg_swipe"	"10 1 1"
+		"dmg_jump"	"10 0.5 1"
+		"dmg_in_air"	"10 0.5 1"
+		"dmg_spit"	"4 0.65 1"
+	}
+}

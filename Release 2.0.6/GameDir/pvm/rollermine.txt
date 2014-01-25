@@ -1,0 +1,14 @@
+"stats"
+{
+	"class"	"npc_rollermine"
+	"name"	"Rollermine"
+	"random_spawn_frequency"	"0.55"
+	"experience_scale"	"0.75"
+
+	"vars"
+	{
+		"health"	"65 5.3333 1"
+		"dmg_shock"	"15 0.5 1"
+		"stun_delay"	"2.5 -0.1 min 0.1"
+	}
+}

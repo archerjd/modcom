@@ -1,0 +1,20 @@
+"stats"
+{
+	"class"	"npc_vortigaunt"
+	"name"	"Suicide Vort"
+	"random_spawn_frequency"	"0.0175"
+	"experience_scale"	"4.5"
+
+	"disable_ranged_attack1" "1"
+
+	"vars"
+	{
+		"health"	"60 2 1"
+		"dmg_claw"	"5 0.5 1"
+		"dmg_rake"	"10 0.9 1"
+		"dmg_dispel"	"60 2 1"
+		"zap_spread"	"3.75 0 1"
+		"dispel_interval" "2"
+		"can_hurt_self" "1"
+	}
+}

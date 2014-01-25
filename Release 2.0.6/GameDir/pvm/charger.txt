@@ -1,0 +1,20 @@
+"stats"
+{
+	"class"	"npc_hunter"
+	"name"	"Charger"
+	"random_spawn_frequency"	"0.12"
+	"experience_scale"	"4"
+
+	"disable_ranged_attack1" "1"
+	"disable_ranged_attack2" "1"
+
+	"vars"
+	{
+		"health"	"100 15 1"
+		"dmg_slash"	"10 0.5 1"
+		"dmg_charge"	"25 3.5 1"
+		"charge_chance"	"1 0 1" // chance of hunter deciding to charge, when it has the chance
+		"min_charge_delay"	"8 -1 1 min 2"
+		"max_charge_delay"	"12 -1 1 min 5"
+	}
+}

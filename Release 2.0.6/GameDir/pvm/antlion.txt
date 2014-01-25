@@ -1,0 +1,14 @@
+"stats"
+{
+	"class"	"npc_antlion"
+	"name"	"Antlion"
+	"random_spawn_frequency"	"1.1"
+
+	"vars"
+	{
+		"health"	"50 10 1"
+		"dmg_swipe"	"10 1 1"
+		"dmg_jump"	"15 1 1"
+		"dmg_in_air"	"15 1 1"
+	}
+}

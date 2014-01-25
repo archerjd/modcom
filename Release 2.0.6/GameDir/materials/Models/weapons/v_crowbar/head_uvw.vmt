@@ -1,0 +1,24 @@
+// envmaptint_fix
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Weapons/v_crowbar/head"
+	"$bumpmap" "models/Weapons/v_crowbar/head_normal"
+//	"$envmap" "Environment Maps/specular"
+	"$envmaptint" "[ .64 .64 .64 ]"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+
+	"DefaultTexture"	"x"
+	"ResistanceTexture"	"models/Weapons/v_crowbar/head_resistance"
+	//"CombineTexture"	"models/Weapons/v_crowbar/head"
+	"ApertureTexture"	"models/Weapons/v_crowbar/head_portal"
+
+	"Proxies"
+	{
+		"WeaponSkin"
+		{
+
+		}
+	}
+}

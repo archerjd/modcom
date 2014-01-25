@@ -1,0 +1,17 @@
+"stats"
+{
+	"class"	"npc_manhack"
+	"name"	"Manhack Prime"
+	"random_spawn_frequency"	"0.075"
+	"experience_scale"	"1.75"
+	
+	"effect_color"	"255 255 255 255"
+
+	"vars"
+	{
+		"health"	"50 5.6 1"
+		"dmg_slash"	"40 2 1"
+		"dmg_held"	"40 2 1"
+		"engine_power"	"20 0.4 1 max 25"
+	}
+}

@@ -1,0 +1,15 @@
+"stats"
+{
+	"class"	"npc_manhack"
+	"name"	"Manhack"
+	"random_spawn_frequency"	"0.8"
+	"experience_scale"	"0.5"
+
+	"vars"
+	{
+		"health"	"20 2.8 1"
+		"dmg_slash"	"20 2 1"
+		"dmg_held"	"20 2 1"
+		"engine_power"	"10 0.75 1 max 25"
+	}
+}

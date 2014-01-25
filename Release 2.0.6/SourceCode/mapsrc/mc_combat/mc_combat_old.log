@@ -1,0 +1,160 @@
+================== VBSP ==================
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Multiple references for cubemap on texture maps/mc_combat/nature/water_canals_water_murky_-135_61_45!!!
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 10 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (165159 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1327 texinfos to 566
+Reduced 114 texdatas to 87 (5070 bytes to 4058)
+Writing C:\DevDocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.bsp
+3 seconds elapsed
+
+================== VVIS ==================
+
+
+
+
+4 threads
+reading c:\devdocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.bsp
+reading c:\devdocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.prt
+ 606 portalclusters
+1817 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 240 visible clusters (0.00%)
+Total clusters visible: 75927
+Average clusters visible: 125
+Building PAS...
+Average clusters audible: 256
+visdatasize:56369  compressed from 96960
+writing c:\devdocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.bsp
+10 seconds elapsed
+
+================== VRAD ==================
+
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.bsp
+2095 faces
+3 degenerate faces
+83074 square feet [11962786.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2092 patches before subdivision
+15178 patches after subdivision
+480 direct lights
+0...1...2...3 warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+...4... warning - face vectors parallel to face normal. bad lighting will be produced
+5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2614263, max 617
+transfer lists:  19.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(231610, 159960, 142380)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(55133, 40074, 35360)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14694, 10718, 9235)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4024, 2915, 2465)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1117, 798, 662)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(314, 221, 180)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(88, 61, 49)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(25, 17, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(7, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3 warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+...4... warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+5...6...7...8...9...10FinalLightFace Done
+126 of 410 (30% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  31/1024         1488/49152    ( 3.0%) 
+brushes                407/8192         4884/98304    ( 5.0%) 
+brushsides            3013/65536       24104/524288   ( 4.6%) 
+planes                2770/65536       55400/1310720  ( 4.2%) 
+vertexes              3670/65536       44040/786432   ( 5.6%) 
+nodes                 1461/65536       46752/2097152  ( 2.2%) 
+texinfos               566/12288       40752/884736   ( 4.6%) 
+texdata                 87/2048         2784/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2095/65536      117320/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1160/65536       64960/3670016  ( 1.8%) 
+leaves                1493/65536       47776/2097152  ( 2.3%) 
+leaffaces             2501/65536        5002/131072   ( 3.8%) 
+leafbrushes           1351/65536        2702/131072   ( 2.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15024/512000      60096/2048000  ( 2.9%) 
+edges                 8860/256000      35440/1024000  ( 3.5%) 
+LDR worldlights        480/8192        42240/720896   ( 5.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            151/32768        1510/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2541/65536        5082/131072   ( 3.9%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      960336/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       56369/16777216 ( 0.3%) 
+entdata               [variable]       64585/393216   (16.4%) 
+LDR ambient table     1493/65536        5972/262144   ( 2.3%) 
+HDR ambient table     1493/65536        5972/262144   ( 2.3%) 
+LDR leaf ambient      4456/65536      124768/1835008  ( 6.8%) 
+HDR leaf ambient      1493/65536       41804/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1340     ( 0.1%) 
+pakfile               [variable]     1503764/0        ( 0.0%) 
+physics               [variable]      165159/4194304  ( 3.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6076
+Writing c:\devdocs\games\modularcombat_source\mapsrc\mc_combat\mc_combat.bsp
+36 seconds elapsed

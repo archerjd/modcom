@@ -1,0 +1,12 @@
+"stats"
+{
+	"class"	"npc_headcrab_poison"
+	"name"	"Poison Headcrab"
+	"random_spawn_frequency"	"0"
+
+	"vars"
+	{
+		"health"	"40 4.4 1"
+		"dmg_melee"	"40 1.2 1"
+	}
+}

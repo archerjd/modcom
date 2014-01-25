@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "skins/deathcrab"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	//"$bumpmap" "models/headcrab/allinonebacup2_normal"
+	//"$envmapcontrast" 1
+}

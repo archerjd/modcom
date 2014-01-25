@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$model"	"1"
+	"$basetexture" "overlays/minion_friendly"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+	"$translucent"	"1"
+	"$additive"	"1"
+//	"$selfillum"	"1"
+
+	"FriendlyTexture"	"overlays/minion_friendly"
+	"HostileTexture"	"overlays/minion_enemy"
+
+	"Proxies"
+	{
+		"IFF"
+		{
+		}
+	}
+}

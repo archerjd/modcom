@@ -1,0 +1,30 @@
+2.0.6
+
+- Reduce AUX consumption of HEALD [Done!]
+- Create Active module to recharge Armor [mostly done, needs icon/scale fixed]
+- 2 new maps [Done!]
+- Mount Portal 1 Content [DONE!]
+- 2 new monsters [1.5/2 done] (Postpone?)
+- Add HEV Suit player models (Needs debugging)
+- Create server command for changing maximum level
+- Verify that laser traps works -- Appears to work in the way that i remember them to supposed to be working. i still think that they were nerfed way too much.
+- verify that poison spit works -- DOES NOT.
+- Fix menus  [Done!] Not sure why but the language file has to be named after the game dir.
+	E.g. Steam\steamapps\SourceMods\modularcombat_beta\resource\modularcombat_beta_english.txt
+		-- Need to enable Valve MP3 Player and add a tab for it in the menu (include the Soundtrack files in the default list).
+
+- Add Freeze Grenade back [Done!] with random melt time, [not done] (last second or two will randomize between 100 & 200 miliseconds).\
+	"Throwing freeze grenade at antlion guard crashes game. Works on everything else." 
+	It works, seems it was just my laptop...
+	
+- Add running man. Make module a 4 point single level module or reduce total speed & energy consumption.
+- Increase energy ball damage by just a little. Current module is almost useless. [Done!]
+- Bring back Recharge [Done!]
+
+2.0.7
+
+- Remove teleport module
+- Create Portal Module
+//- Introduce the LUA API for adding/modifying/removing modules, guns, & monsters. (Needs further discussion)
+//- Replace Recharge with new module called Endurance (Name speaks for it's self) (Needs a LOT of discussion)
+- Move Cloak to the target effects group & make it a time/leveled buff

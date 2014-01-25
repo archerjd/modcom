@@ -1,0 +1,17 @@
+spawn 2 antlion per_player
+spawn 1 antlion_worker per_player
+wait 10
+spawn 3 antlion per_player
+spawn 2 antlion_worker per_player
+wait 5
+spawn 10 antlion
+spawn 4 antlion_worker
+
+wait until all_monsters_dead
+
+spawn 1 antlion_guard boss
+
+repeat
+	spawn 1 antlion per_player
+	wait 10
+until all_bosses_dead

@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/Weapons/V_pistol/v_pistol_sheet"
+	"$bumpmap" "Models/Weapons/V_pistol/v_pistol_sheet_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum" "1"
+
+
+	"DefaultTexture"	"x"
+	"ResistanceTexture"	"Models/Weapons/V_pistol/v_pistol_sheet_blackmesa"
+	"CombineTexture"	"Models/Weapons/V_pistol/v_pistol_sheet_combine"
+	"ApertureTexture"	"Models/Weapons/V_pistol/v_pistol_sheet_aperture"
+
+	"Proxies"
+	{
+		"WeaponSkin"
+		{
+
+		}
+	}
+}

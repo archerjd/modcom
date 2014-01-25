@@ -1,0 +1,9 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "plastic/plasticbars001"
+	"%keywords" "modcom"
+
+	// NOTE: Even though env_cubemap is here, it will turned off for DX6
+	// because $multipass 1 isn't defined
+	"$translucent" 1

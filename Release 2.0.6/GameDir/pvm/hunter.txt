@@ -1,0 +1,19 @@
+"stats"
+{
+	"class"	"npc_hunter"
+	"name"	"Hunter"
+	"random_spawn_frequency"	"0.5"
+	"experience_scale"	"4"
+
+	"vars"
+	{
+		"health"	"100 15 1"
+		"dmg_slash"	"10 0.5 1"
+		"dmg_charge"	"20 2.5 1"
+		"dmg_shot_hit"	"5 0.5 1"
+		"dmg_shot"	"5 0.5 1"
+		"charge_chance"	"0.25 0 1" // chance of hunter deciding to charge, when it has the chance
+		"min_charge_delay"	"10 0 1"
+		"max_charge_delay"	"15 0 1"
+	}
+}

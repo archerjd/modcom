@@ -1,0 +1,11 @@
+"stats"
+{
+	"class"	"npc_crow"
+	"name"	"Crow"
+	"random_spawn_frequency"	"0"
+
+	"vars"
+	{
+		"health"	"5 0 1"
+	}
+}

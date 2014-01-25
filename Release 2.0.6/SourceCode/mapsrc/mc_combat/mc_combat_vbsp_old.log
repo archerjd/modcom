@@ -1,0 +1,100 @@
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\half-life 2 deathmatch\hl2mp\materials
+Loading C:\DevDocs\games\modularcombat\mapsrc\mc_combat\mc_combat.vmf
+material "concrete/concrete_modular_floor001a" not found
+Material not found!: CONCRETE/CONCRETE_MODULAR_FLOOR001A
+material "metal/metalwall048b_med" not found
+Material not found!: METAL/METALWALL048B_MED
+material "concrete/concrete_modular_wall001c" not found
+Material not found!: CONCRETE/CONCRETE_MODULAR_WALL001C
+material "metal/metalwall048c_gradient" not found
+Material not found!: METAL/METALWALL048C_GRADIENT
+material "dev/dev_measuregeneric01b" not found
+Material not found!: DEV/DEV_MEASUREGENERIC01B
+material "tools/toolsnodraw" not found
+Material not found!: TOOLS/TOOLSNODRAW
+material "concrete/concrete_modular_ceiling001a" not found
+Material not found!: CONCRETE/CONCRETE_MODULAR_CEILING001A
+material "plastic/plasticwall001a" not found
+Material not found!: PLASTIC/PLASTICWALL001A
+material "plastic/plasticwall003a" not found
+Material not found!: PLASTIC/PLASTICWALL003A
+material "tools/toolsinvisible" not found
+Material not found!: TOOLS/TOOLSINVISIBLE
+material "lights/light_orange001" not found
+Material not found!: LIGHTS/LIGHT_ORANGE001
+material "tools/toolsplayerclip" not found
+Material not found!: TOOLS/TOOLSPLAYERCLIP
+material "metal/metal_modular_floor001" not found
+Material not found!: METAL/METAL_MODULAR_FLOOR001
+material "nature/water_canals_water_murky" not found
+Material not found!: NATURE/WATER_CANALS_WATER_MURKY
+material "lights/white001" not found
+Material not found!: LIGHTS/WHITE001
+material "metal/metal_lift001_gradient" not found
+Material not found!: METAL/METAL_LIFT001_GRADIENT
+material "metal/metal_lift001" not found
+Material not found!: METAL/METAL_LIFT001
+material "metal/metalwall_bts_005a" not found
+Material not found!: METAL/METALWALL_BTS_005A
+material "glass/glasswindow_frosted_002" not found
+Material not found!: GLASS/GLASSWINDOW_FROSTED_002
+material "glass/glasswindow_refract01" not found
+Material not found!: GLASS/GLASSWINDOW_REFRACT01
+material "glass/glasswindow_frosted_002b" not found
+Material not found!: GLASS/GLASSWINDOW_FROSTED_002B
+material "lights/light_recessedcool001" not found
+Material not found!: LIGHTS/LIGHT_RECESSEDCOOL001
+material "metal/metalwall048b_lrg" not found
+Material not found!: METAL/METALWALL048B_LRG
+material "metal/metalfloor003a" not found
+Material not found!: METAL/METALFLOOR003A
+material "concrete/concrete_bts_modular_wall001d" not found
+Material not found!: CONCRETE/CONCRETE_BTS_MODULAR_WALL001D
+material "concrete/concrete_modular_wall001a" not found
+Material not found!: CONCRETE/CONCRETE_MODULAR_WALL001A
+material "metal/metalwall048c" not found
+Material not found!: METAL/METALWALL048C
+material "metal/metalgrate014a" not found
+Material not found!: METAL/METALGRATE014A
+material "dev/dev_lowermetaldoor02a" not found
+Material not found!: DEV/DEV_LOWERMETALDOOR02A
+material "signage/hazard_orange_03b" not found
+Material not found!: SIGNAGE/HAZARD_ORANGE_03B
+material "tools/toolsnpcclip" not found
+Material not found!: TOOLS/TOOLSNPCCLIP
+material "metal/metalgrate013b" not found
+Material not found!: METAL/METALGRATE013B
+material "metal/metal_modular_floor002" not found
+Material not found!: METAL/METAL_MODULAR_FLOOR002
+material "tools/toolstrigger" not found
+Material not found!: TOOLS/TOOLSTRIGGER
+material "glass/glasswindow_frosted_003" not found
+Material not found!: GLASS/GLASSWINDOW_FROSTED_003
+material "signage/signage_doorstate" not found
+Material not found!: SIGNAGE/SIGNAGE_DOORSTATE
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 10 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\games\modularcombat\mapsrc\mc_combat\mc_combat.prt...done (0)
+material "skybox/sky_day01_01rt" not found
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+No such variable "$hdrbasetexture" for material "___error"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "overlays/overlay_scrawlings002a" not found
+material "overlays/overlay_scrawlings005a" not found
+material "signage/indicator_lights/indicator_lights_wall" not found
+Building Physics collision data...

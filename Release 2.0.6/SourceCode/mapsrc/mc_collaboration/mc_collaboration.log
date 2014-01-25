@@ -1,0 +1,2480 @@
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+26997 square feet [3887641.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 693671, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 456/65536        9120/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2544/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+26997 square feet [3887641.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 693691, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 456/65536        9120/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2547/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9867 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+26997 square feet [3887641.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 693691, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             188/65536        1504/524288   ( 0.3%) 
+planes                 488/65536        9760/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2930/393216   ( 0.7%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9867/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9867 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+26997 square feet [3887641.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 693691, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             194/65536        1552/524288   ( 0.3%) 
+planes                 512/65536       10240/1310720  ( 0.8%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2955/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9867/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9867 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27012 square feet [3889815.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694426, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             194/65536        1552/524288   ( 0.3%) 
+planes                 514/65536       10280/1310720  ( 0.8%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2957/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9867/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2545/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2545/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2546/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2546/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2546/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2547/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2547/393216   ( 0.6%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 470/65536        9400/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3067/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 470/65536        9400/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3067/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 474/65536        9480/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3067/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 474/65536        9480/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3071/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 474/65536        9480/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3071/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 474/65536        9480/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3068/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9871 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 53 texinfos to 37
+Reduced 3 texdatas to 3 (69 bytes to 69)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 482/65536        9640/1310720  ( 0.7%) 
+vertexes               186/65536        2232/786432   ( 0.3%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 124/65536        3968/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        3067/393216   ( 0.8%) 
+LDR ambient table      124/65536         496/262144   ( 0.2%) 
+HDR ambient table      124/65536         496/262144   ( 0.2%) 
+LDR leaf ambient        81/65536        2268/1835008  ( 0.1%) 
+HDR leaf ambient       124/65536        3472/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9871/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\weret\portal\portal\materials
+Loading C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\weret\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 47 texinfos to 36
+Reduced 2 texdatas to 2 (51 bytes to 51)
+Writing C:\DevDocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+reading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.prt
+  29 portalclusters
+  93 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 831
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+112 faces
+27011 square feet [3889715.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+112 patches before subdivision
+6128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 694427, max 299
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               178/65536        2136/786432   ( 0.3%) 
+nodes                  110/65536        3520/2097152  ( 0.2%) 
+texinfos                36/12288        2592/884736   ( 0.3%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  112/65536        6272/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 117/65536        3744/2097152  ( 0.2%) 
+leaffaces              132/65536         264/131072   ( 0.2%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              886/512000       3544/2048000  ( 0.2%) 
+edges                  459/256000       1836/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       73408/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        2556/393216   ( 0.7%) 
+LDR ambient table      117/65536         468/262144   ( 0.2%) 
+HDR ambient table      117/65536         468/262144   ( 0.2%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        9321/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 266
+Writing c:\devdocs\modcom_source\mapsrc\mc_collaboration\mc_collaboration.bsp
+2 seconds elapsed

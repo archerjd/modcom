@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$basetexture "Models/HEVsuit/hevsuit_emblem"
+	$bumpmap "Models/HEVSuit/hevsuit_emblem_normal"
+	$normalmapalphaenvmapmask "Models/HEVSuit/hevsuit_emblem_specular"
+}

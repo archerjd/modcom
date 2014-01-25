@@ -1,0 +1,13 @@
+"stats"
+{
+	"class"	"npc_headcrab"
+	"name"	"Headcrab"
+	"random_spawn_frequency"	"0"
+	"experience_scale"	"0.5"
+
+	"vars"
+	{
+		"health"	"20 5.2 1"
+		"dmg_melee"	"12 2.15 1"
+	}
+}

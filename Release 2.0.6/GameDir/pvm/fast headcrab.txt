@@ -1,0 +1,13 @@
+"stats"
+{
+	"class"	"npc_headcrab_fast"
+	"name"	"Fast Headcrab"
+	"random_spawn_frequency"	"0.1"
+	"experience_scale"	"0.85"
+
+	"vars"
+	{
+		"health"	"10 3.6 1"
+		"dmg_melee"	"6 1.08 1"
+	}
+}

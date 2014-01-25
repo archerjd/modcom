@@ -1,0 +1,15 @@
+"stats"
+{
+	"class"	"npc_zombie"
+	"name"	"Slow Crabless Zombie"
+	"random_spawn_frequency"	"0.2"
+	"experience_scale"	"0.75"
+
+	"vars"
+	{
+		"health"	"40 4.3333 1"
+		"dmg_one"	"13 1.167 1"
+		"dmg_both"	"33 1.65 1"
+		"crabless"	"1"
+	}
+}

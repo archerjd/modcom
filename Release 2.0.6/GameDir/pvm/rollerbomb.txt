@@ -1,0 +1,14 @@
+"stats"
+{
+	"class"	"npc_rollerbomb"
+	"name"	"Rollerbomb"
+	"random_spawn_frequency"	"0.40"
+	"experience_scale"	"0.75"
+
+	"vars"
+	{
+		"health"	"18 2 1"
+		"dmg_explode"	"35 2.5 1"
+		"stun_delay"	"2.5 -0.13 1 min 0.1"
+	}
+}

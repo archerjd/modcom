@@ -1,0 +1,40 @@
+Possible addition to the ToDo list for 2.0.6/7
+
+> New map: SG_m_1 = Several small planets [at most 15], 
+Stargates on each one [hit a button on the DHD and the correct gate connects], Cheyenne mountain complex, 
+Alpha site, Goauld infested world(s) [with ring teleports, as in dm_911_kat14remix.bsp], 
+monster infested worlds, etc.
+Concerning Cheyene, Alpha, Goauld: add armouries, med-labs, etc.
+
+
+how exactly does Stargate fit into the story of modular combat? - taiiat
+
+I don't know, just thought it would be fun.
+It wouldn't have to fit in any HL2 storyline, it would have a story of it's own.
+Think about the Avalon map. It doesn't fit anywhere in the ModCom/HL2 story either,
+ yet someone had set up the npc node graphs for it.
+- nuetron
+
+Agreeing with taiiat here, however I don't see a problem with "funmaps". They should be the lowest priority though. - EP
+
+just to clarify myself - a stargate map could be nice and interesting, i was just saying it doesn't seem to fit with the story of the mod. - taiiat
+
+Gotcha. Sometimes, the scenery gets alittle old. And my little sister would very much like to have a map like that. 
+Agreeing with EP, it should be the lowest priority (IF we do start working on it). - nuetron
+
+
+
+
+The Portal Gun Module
+	-Timed operation with cooidown = (one portal set up = time decrease), (two portals set up = 4x time decrease, because of drain of 
+		portal blue + portal orange + link between), (cooldown = half of operating time)
+	
+	-TenLeveModule = each upgrade makes the time alloted a little larger
+
+
+
+
+
+
+
+

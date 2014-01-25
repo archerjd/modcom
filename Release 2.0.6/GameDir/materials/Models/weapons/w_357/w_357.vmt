@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/Weapons/W_357/w_357"
+
+	"DefaultTexture"	"x"
+	"ResistanceTexture"	"models/Weapons/w_pistol/pistol_resistance"
+	//"CombineTexture"	"models/Weapons/w_pistol/pistol_combine"
+	//"ApertureTexture"	"models/Weapons/w_pistol/pistol_aperture"
+
+	"Proxies"
+	{
+		"WeaponSkin"
+		{
+
+		}
+	}
+}

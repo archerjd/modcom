@@ -1,0 +1,32 @@
+A place to store map ideas for Modular Combat. feel free to add another entry if you've had an idea that you think works well with Modular Combat.
+just please follow my example of information so that we have a uniform model and we can find shit.
+don't forget to explain your map so we can all envision it just as you are D:
+
+"PS, if you make visuals in Photoshop/Google Sketchup/CAD/Paint/Whatever, drop them in mapsrc\visuals so everyone can take a look. Also, keep in mind that the Source Engine does not scale to real life proportions, so don't bother with putting in measurements. What is far more useful would be included a little clip art man to show proportions relative to a human. Source scales up to roughly 1.30x real life, but even then it's shoddy and unreliable to use Hammer that way." -- EP
+
+this is a list of just thoughts, not finished map ideas. the kind've thing where you suddenly think, hey a map with such and such would be cool. put those here.
+
+====================================================================================================
+
+- possibly a crane in the center of a map - which operates - and the area around it having lots of props to smash around and throw at players.
+this might even be a type of gamemode rather, people working together to kill the person in the crane (the person in it from a random choice of people who have opted to be in the drawing to be in the crane)
+
+"Would actually be pretty fun. Gamemode wise, maybe one team has the base with the crane, and the other two teams have to capture it?" -- EP
+
+====================================================================================================
+Overturned Cargo Ship
+no current proposed name
+==========
+- An overturned cargo ship in a (mostly) dry riverbed (a very large riverbed, and a very large cargo ship.)
+- Relatively dry ground with pockets of water. ground would be a mix between dry dirt and saturated muck.
+- Many, and i mean MANY, shipping containers strewn all over the place. this would make up the majority of the walls and such on the map.
+- The ship itself may or may not be scalable to some degree, to give immense vantage points. if so, the top side would be the scalable part, other parts of the ship would be off the map.
+- Shipping crates would be stacked (relatively randomly) higher and higher the closer to the ship, and lower the further away. and strewn around to look like they could've fallen off the ship in a violent crash. this means quite a few damaged ones.
+- Some crates smashed into others, some right into the ground like tent stakes, etc.
+- And as always, being a map of my design, this isn't some piddly small time map. this is a real one. 2-4x + the size of DM_Drift.
+- idea for this map being that it was a cargo ship transporting many test subjects and monsters and such, and has crashed and everything got loose.
+- there isn't too much for scrap metal and such that would've fallen off the ship so limited physics props to throw around. possibly a blast door or two, a few barrels and a few explosive barrels, some chunks of metal maybe, but really not a whole lot.
+---taiiat
+
+"Rather than have a giant resource sucking map around the ship, why not make it so you can enter the ship on it's side? It'd be a far more interesting map that way." -- EP
+====================================================================================================

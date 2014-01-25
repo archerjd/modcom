@@ -1,0 +1,21 @@
+"stats"
+{
+	"class"	"npc_vortigaunt"
+	"name"	"Vort Scientist"
+	"model"	"models/vortigaunt_doctor.mdl"
+	"boss"	"1"
+	"random_spawn_frequency"	"0.05"
+	"experience_scale"	"3.5"
+
+	"vars"
+	{
+		"health"	"90 3 1"
+		"dmg_claw"	"15 0.5 1"
+		"dmg_rake"	"20 0.9 1"
+		"dmg_zap"	"30 2 1"
+		"zap_spread"	"3.75 0 1"
+		"dmg_dispel"	"50 5 1"
+		"dispel_interval" "12"
+		"can_hurt_self" "0"
+	}
+}

@@ -1,0 +1,27 @@
+"VertexLitGeneric" // LightmappedTwoTexture?
+{
+	"$basetexture" "overlays/plague"
+	//"$texture2" "overlays/plague" // alternatively $basetexture2
+	"$vertexcolor"  "1"
+	"$vertexalpha"  "1"
+	"$translucent"  "1"
+	"$model"        "1"
+//	"$additive"     "1"
+//	"$selfillum"    "1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.1"
+			"texturescrollangle" "80"
+		}
+		//"TextureScroll"
+		//{
+			//"texturescrollvar" "$texture2transform" // alternatively $basetexturetransform2
+			//"texturescrollrate" "0.175"
+			//"texturescrollangle" "160"
+		//}
+	}
+}

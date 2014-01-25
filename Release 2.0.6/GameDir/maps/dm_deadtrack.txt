@@ -1,0 +1,52 @@
+10/02/2005
+================================================================
+Title                   : Dead Track
+Filename                : dm_deadtrack.zip
+Author                  : Germano "uoz" Guerrini
+E-mail                  : uoz@multiplayer.it
+Web Site                : http://uoz.multiplayer.it/
+Description             : Half-Life 2 deathmatch level
+================================================================
+
+
+* Play Information *
+
+- Unzip the contents of dm_deadtrack.zip to your
+  valve/steam/steamapps/[username]/half-life 2 deathmatch/maps folder.
+- Run Half-Life 2 Deathmatch.
+- You can create your own server selecting the map from the list, or join
+  an existing one.
+
+
+* Description *
+
+Game type     	: Deathmatch
+Players load   	: 6 - 18, maybe more
+Respawn spots   : 38
+Known bugs      : None
+New Textures    : Some new decal signs, embedded in the .bsp file.
+
+
+* Notes *
+
+This map was inspired to a real train station here in Rome.
+It is rather big, with a wide, open central area and small corridors all around,
+and this variety allows for strategic and fluent gameplay.
+
+
+* Credits *
+
+- All the guys at Lanmaniax, interlopers, hl2world, filefront and whiskey town
+  for the wonderful feedback on my previous map, dm_backbone.
+
+
+* Copyright / Permissions *
+
+This package may only be distributed by means of electronic transfer,
+free of any charge to the recipient, and may not be modified in any way.
+All the files included in the original package must remain intact and
+unmodified.
+
+This package may not be distributed on any CD-ROM, nor be
+used on a commercial multi-player server without the prior,
+explicit written consent of the author.

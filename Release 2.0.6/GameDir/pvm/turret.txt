@@ -1,0 +1,12 @@
+"stats"
+{
+	"class"	"npc_turret_floor"
+	"name"	"Turret"
+	"random_spawn_frequency"	"0"
+
+	"vars"
+	{
+		"health"	"20 5 1"
+		"dmg_shoot"	"4 0.5 1"
+	}
+}

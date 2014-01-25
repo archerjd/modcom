@@ -1,0 +1,14 @@
+"stats"
+{
+	"class"	"npc_zombine"
+	"name"	"Zombine"
+	"random_spawn_frequency"	"0.95"
+	"experience_scale"	"1.5"
+
+	"vars"
+	{
+		"health"	"75 5 1"
+		"dmg_one"	"10 1 1"
+		"dmg_both"	"25 1 1"
+	}
+}

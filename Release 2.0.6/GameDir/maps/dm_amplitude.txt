@@ -1,0 +1,27 @@
+Overview
+--------
+
+Level Name: dm_amplitude
+Suggested Player Count: 6-18
+Single Player: No
+Gameplay Type: Deathmatch  
+
+Author: Radon
+Contact: 222.radon.86@gmx.de
+
+
+Installation
+------------
+
+Unzip the file dm_amplitude.bsp into :
+Steam\Steamapps\[your username]\half-life 2 deathmatch\hl2mp\maps\
+
+
+Info
+----
+This is a classic deathmatch map without a realistic theme. It rather focuses on good connectivity and fast paced gameplay. The size of the map got rather large so I suggest at least 6 players on a server.
+
+
+Special Thanks
+--------------
+I'd like to thank the guys at Snarkpit who gave me hints where the map still had to be improved and what was missing.

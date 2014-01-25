@@ -1,0 +1,38 @@
+"Crit.Shoot"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.45"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fx/crit_shoot1.wav"
+		"wave"	"fx/crit_shoot2.wav"
+		"wave"	"fx/crit_shoot3.wav"
+		"wave"	"fx/crit_shoot4.wav"
+	}
+}
+
+"Crit.Hit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fx/crit_hit1.wav"
+		"wave"	"fx/crit_hit2.wav"
+		"wave"	"fx/crit_hit3.wav"
+	}
+}
+
+"ScoreToken.Pickup"
+
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"wave"	"items/suitchargeok1.wav"
+}
