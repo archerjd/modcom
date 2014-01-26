@@ -1,0 +1,40 @@
+recharge Recharge
+vitality Vitality
+armorcap Armor Capacity
+auxpower Aux Power Tank
+sprintspeed Running Man
+clipsize Clip Size
+impact Impact
+bruteforce Brute Force
+startarmor Start Armor
+crits Critical Hits
+regeneration Regeneration
+armorregen Armor Regen
+ammoregen Ammo Regen
+cloak Cloak
+jetpack Jetpack
+teleport Teleport
+longjump Long Jump
+energyball Energy Ball
+flechette Flechette
+poisonspit Poison Spit
+freeze_bomb Freeze Bomb
+incendiary Incendiary Grenade
+mirv MIRV
+heald HEALD
+damage_amp Damage Amp
+attrition Attrition
+weaken Weaken
+plague Plague
+mind_absorb Mind Absorb
+laser Lasers
+turret Turrets
+magmine Mag Mine
+crow Crow Launcher
+minion_zombie Zombie
+minion_fastzombie Fast Zombie
+minion_antlion Antlion
+minion_antlion_worker Antlion worker
+minion_fastheadcrab Fast Headcrab
+minion_vortigaunt Vortigaunt
+minion_manhack Manhack

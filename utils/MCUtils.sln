@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterDifficultyConfig", "MonsterDifficultyConfig\MonsterDifficultyConfig.csproj", "{CD4D6791-B00E-4C85-87A8-F9D8DF162DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCSIDE", "MCSIDE\MCSIDE.csproj", "{B43A54AC-CECF-4A06-A99D-2894DE6E1BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCDBBrowser", "MCDBBrowser\MCDBBrowser.csproj", "{69F456DA-56F6-42E0-B896-70C272FDFF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvarController", "ConvarController\ConvarController.csproj", "{136C581F-B04E-4AA4-A5B8-948D43D41A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollator", "DataCollator\DataCollator.csproj", "{588C2AF2-AB78-432B-A204-ED8B4AED50A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceExtractor", "ResourceExtractor\ResourceExtractor.csproj", "{C926D6AD-3483-4E37-A9FA-DFBD1A38C0B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvarUpdater", "ConvarUpdater\ConvarUpdater.csproj", "{B88434F7-EB47-438B-8844-8B49605AF900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD4D6791-B00E-4C85-87A8-F9D8DF162DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4D6791-B00E-4C85-87A8-F9D8DF162DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4D6791-B00E-4C85-87A8-F9D8DF162DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4D6791-B00E-4C85-87A8-F9D8DF162DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43A54AC-CECF-4A06-A99D-2894DE6E1BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43A54AC-CECF-4A06-A99D-2894DE6E1BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43A54AC-CECF-4A06-A99D-2894DE6E1BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43A54AC-CECF-4A06-A99D-2894DE6E1BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F456DA-56F6-42E0-B896-70C272FDFF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F456DA-56F6-42E0-B896-70C272FDFF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F456DA-56F6-42E0-B896-70C272FDFF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F456DA-56F6-42E0-B896-70C272FDFF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136C581F-B04E-4AA4-A5B8-948D43D41A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136C581F-B04E-4AA4-A5B8-948D43D41A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136C581F-B04E-4AA4-A5B8-948D43D41A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136C581F-B04E-4AA4-A5B8-948D43D41A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588C2AF2-AB78-432B-A204-ED8B4AED50A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588C2AF2-AB78-432B-A204-ED8B4AED50A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588C2AF2-AB78-432B-A204-ED8B4AED50A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588C2AF2-AB78-432B-A204-ED8B4AED50A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C926D6AD-3483-4E37-A9FA-DFBD1A38C0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C926D6AD-3483-4E37-A9FA-DFBD1A38C0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C926D6AD-3483-4E37-A9FA-DFBD1A38C0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C926D6AD-3483-4E37-A9FA-DFBD1A38C0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88434F7-EB47-438B-8844-8B49605AF900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88434F7-EB47-438B-8844-8B49605AF900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88434F7-EB47-438B-8844-8B49605AF900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88434F7-EB47-438B-8844-8B49605AF900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

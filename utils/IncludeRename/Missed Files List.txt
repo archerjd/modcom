@@ -1,0 +1,9 @@
+basepropdoor.h
+ai_criteria.h
+entityflame.h
+entitydissolve.h
+skycamera.h
+ai_responsesystem.h
+envlaser.h
+templateentities.h
+ragdollboogie.h

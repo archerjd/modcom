@@ -1,0 +1,46 @@
+# Comment! This file is best copied into a text file for viewing
+PVM "Holy crabs" # This is a PVM script with a name, the name will be parsed on server start. This is also the start of a block of code.
+	INT time (game.timeleft - 60) # setting a timer, in seconds
+	INT r
+	WHILE [[time > 0] & [(game.maxmonsters * 2) > game.curmonsters]] # not that 'maxmonsters' gets a different number than the hard max set in place.
+		RAND r 100 # random number between 0 and 100, additional limits can be specified
+		IF [r < 69]
+			SPAWN game.players "headcrab" # spawning a genaric headcrab for each player
+		ELSEIF [r < 84]
+			SPAWN game.players "fast headcrab"
+		ELSEIF [r < 99]
+			SPAWN game.players "poison headcrab"
+		ELSE
+			SPAWN game.players "deathcrab"
+		END
+		= time (time - 1) # could also be ASSIGN
+		WAIT 1
+	END
+	
+	# boss mode time, the boss we want doesn't exsist so:
+	MONSTER "tempboss" "headcrab"
+		NAME "Omega Crab"
+		HEALTH (25 * game.level * game.players) # game level is the average level of the players so a 2 6 10 is 6
+		LEVEL (game.level + 5)
+		BOSS TRUE
+		EXPMOD 10
+		DMG_MELEE 0
+		SCALE 2 # Model scale, not sure if this is doable?
+		SKIN "skins/deathcrab.vmt"
+		MODULE "plague" 10
+		MODULE "teleport" 1
+		MODULE "mindabsorb" 10
+		IF [game.level > 5]
+			MODULE "shockwave" (game.level - 5) # because of the way the code is written, loops and coditionals are valid in all blocks
+		END
+	END
+	
+	STRUCT MONSTER boss "tempboss"
+	SPAWN boss # only passable argument, because it is a single monster in a struct
+	WHILE boss.alive
+		WAIT 5
+		SPAWN 1 "deathcrab"
+		SPAWN game.openmonsters game.monsters.crabs # randomly picks a crab name string
+	END
+	AWARD EXP 500 boss.killteam # returns a 'team' structure, also: game.team.combine and game.team.combine.size for example.
+END

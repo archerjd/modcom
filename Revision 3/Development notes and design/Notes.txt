@@ -1,0 +1,6 @@
+Place all notes, comments, and designs here.
+I would love to do a UML of the new design as well... if time permits.
+-Archer
+
+The game and source files are currently just a basic release of the sdk with the fixes.
+-Archer 8/15/12 11pm

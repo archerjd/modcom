@@ -1,0 +1,32 @@
+vitality Vitality
+auxpower Aux Power Tank
+armorcap Armor Capacity
+impact Impact
+bruteforce Brute Force
+crits Critical Hits
+clipsize Clip Size
+ammoregen Ammo Regen
+cloak Cloak
+jetpack Jetpack
+teleport Teleport
+longjump Long Jump
+energyball Energy Ball
+flechette Flechette
+poisonspit Poison Spit
+incendiary Incendiary Grenade
+mirv MIRV
+heald HEALD
+damage_amp Damage Amp
+weaken Weaken
+plague Plague
+shockwave Shockwave
+laser Lasers
+turret Turrets
+magmine Mag Mine
+crow Crow Launcher
+minion_zombie Zombie
+minion_fastzombie Fast Zombie
+minion_antlion Antlion
+minion_antlion_worker Antlion worker
+minion_vortigaunt Vortigaunt
+minion_manhack Manhack
