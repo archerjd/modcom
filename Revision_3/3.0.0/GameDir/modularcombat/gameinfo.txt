@@ -1,12 +1,19 @@
 "GameInfo"
 {
-	game	"My First HL2MP Mod"
-	title	"HALF+LIFE'"
-	title2	"deathmatch mod"
+	game	"Modular Combat v3.0.0 "
+	gamelogo	"1"
+	icon		"resource/icon"
+	title	"Modular Combat"
+	title2	"HL2 deathmatch mod"
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
+	gamelogo	1
+ 	developer	"Mod Fidelity"
+	developer_url	"http://www.moddb.com/groups/mod-fidelity/"
+	manual_url	"http://www.moddb.com/mods/modular-combat/"
+	icon		"resource/icon"
 	hidden_maps
 	{
 		"test_speakers"		1
@@ -77,6 +84,8 @@
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2mp
+			Game				|all_source_engine_paths|ep2
+			Game				|all_source_engine_paths|episodic
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 		}

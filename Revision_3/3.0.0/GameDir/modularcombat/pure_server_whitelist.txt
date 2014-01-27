@@ -1,0 +1,18 @@
+whitelist
+{
+	//
+	// 3 modifiers are allowed on file specifications:
+	//
+	//	from_steam		- only check the Steam cache for the file (ignore anything on disk)
+	//	allow_from_disk		- allow the file to come from disk
+	//	check_crc		- used with allow_from_disk - server does CRC checks on the client's file to make sure it matches
+	//
+	//	The default modifier on all files is allow_from_disk. Thus, all files can come from disk and don't need CRC checks unless 
+	//	allow_from_disk can be set at the same time as check_crc. Use the + character in between them to signify this: allow_from_disk+check_crc.
+
+	// for now, just allowing everything
+	
+	materials\...		allow_from_disk
+	models\...			allow_from_disk
+	sound\...			allow_from_disk
+}
